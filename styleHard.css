@@ -1,0 +1,212 @@
+/* 
+ * CSS style sheet for Bootcamp Homework #1
+ * 3/14/2019
+ * ## Easier Assignment - Building a Wireframe
+ */
+
+/* Set initial style for all */
+.wrapper {
+  font-family: 'Times New Roman', Times, serif;
+  /* Gold Leaf */
+  color: #d98310;
+  /* Sky Blue */
+  background: #328cc1;
+  /* Prussian Blue */
+  /* color: #0b3c5d;  */
+  /* Ivory Black */
+  /* color: #1d3721; */
+  width: 960px;
+  height: 960px;
+  font-size: 18px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: visible;
+  overflow: auto;
+}
+
+/* 
+ * Define header block styles. Note usee of display: flex,
+ * align:items: center, and justify-content: center to 
+ * place text in center of block. 
+ */
+header {
+  background: #328cc1;
+  width: 760px;
+  height: 60px;
+  text-align: center;
+  position: absolute;
+  top: 5px;
+  left: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Define horizontal nav block styles. */
+#horizNav {
+  background: #ebebeb;
+  width: 760px;
+  height: 60px;
+  text-align: left;
+  position: absolute;
+  top: 70px;
+  left: 100px;
+}
+
+.nav {
+  background-color: yellow; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.homeNav {
+  width: 50px;
+  color: #d98310;
+  float: left;
+}
+
+.homeLogo {
+  font-size: 24px;
+  width: 50px;
+  color: #d98310;
+}
+
+.ulNav {
+  width: 50px;
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/* Define section block styles. */
+section {
+  background: #ebebeb;
+  width: 375px;
+  height: 225px;
+  text-align: center;
+  position: absolute;
+  top: 140px;
+  left: 100px;
+  margin-top: 50;
+}
+
+/* 
+ * Define style for div around the section text to take the 
+ * centered text down 20 pixels from the top.
+ */
+#sectionText {
+  position: relative;
+  top: 20px;
+}
+
+/* Define article block styles. */
+article {
+  color: #ebebeb;
+  background: #777;
+  width: 350px;
+  height: 135px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  left: 10px;
+}
+
+/* Define style for div around the article. */
+#articleHead {
+  color: #777;
+  background: #ebebeb;
+  width: 340px;
+  height: 40px;
+  position: relative;
+  top: 10px;
+  left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Define h1 style. */
+h1 {
+  color: #777;
+  background: #ebebeb;
+}
+
+/* Define style for div around the paragraph. */
+#articlePara {
+  color: #777;
+  background: #ebebeb;
+  width: 340px;
+  height: 40px;
+  position: relative;
+  top: 20px;
+  left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Define p style. */
+p {
+  color: #777;
+  background: #ebebeb;
+}
+
+/* Define aside style. */
+aside {
+  background: #ebebeb;
+  width: 375px;
+  height: 225px;
+  text-align: center;
+  position: absolute;
+  top: 140px;
+  left: 485px;
+}
+
+/* Define style for div around the aside text. */
+#asideText {
+  position: relative;
+  top: 20px;
+}
+
+/* Define footer style. */
+footer {
+  background: #ebebeb;
+  width: 760px;
+  height: 60px;
+  text-align: center;
+  position: absolute;
+  top: 380px;
+  left: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
